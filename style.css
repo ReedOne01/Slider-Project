@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  height: 80vh;
+  width: 55%;
+  border: 1px solid red;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.slide {
+  height: 50%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+}
+img {
+  height: 32rem;
+  width: 51rem;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 5rem;
+}
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15rem;
+  border: 1px solid red;
+  gap: 25px;
+}
+button {
+  padding: 5% 15%;
+}
